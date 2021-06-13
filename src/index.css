@@ -9,14 +9,18 @@ body {
 }
 
 .app {
-  background-image: url('./assets/cold-bg.jpg');
+  background-image: url('./assets/normal.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.5 ease-in-out;
 }
 
-.app.warm {
-  background-image: url('./assets/warm-bg.jpg');
+.app.summer {
+  background-image: url('./assets/summer.png');
+}
+
+.app.winter {
+  background-image: url('./assets/winter.jpg');
 }
 
 main {
@@ -34,6 +38,7 @@ main {
   display: block;
   width: 100%;
   padding: 15px;
+  margin-top: 2vh;
 
   appearance: none;
   background: none;
@@ -41,33 +46,33 @@ main {
   outline: none;
 
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 25px 25px 25px 25px;
+  border-radius: 25px 0px 25px 0px;
 
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2 );
   
-  color: #313131;
+  color: #000000;
   font-size: 20px;
 
   transition: 2.4s ease;
 }
 
 .search-box .search-bar:focus {
-  background-color: rgba(225, 225, 225, 0.75);
+  background-color: rgba(225, 225, 225, 0.835);
 
 }
 
 .location-box .location {
   color: #fff;
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 34px;
+  font-weight: 700;
   text-align: center;
-  text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+  text-shadow: 2px 2px rgba(20, 20, 20, 0.5);
 }
 
 .location-box .date {
   color: #fff;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
 }
@@ -79,14 +84,14 @@ main {
 .weather-box .temp {
   position: relative;
   display: inline-block;
-  margin: 30px auto;
+  margin: 50px auto;
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius:  16px;
+  border-radius:  20px;
 
-  padding: 15px 25px;
+  padding: 20px 25px;
 
-  color: #fff;
-  font-size: 102px;
+  color: rgb(255, 255, 255);
+  font-size: 105px;
   font-weight: 900;
 
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
@@ -96,7 +101,7 @@ main {
 }
 
 .weather-box .weather {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.89);
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 50, 0.5);
