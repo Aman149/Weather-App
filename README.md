@@ -1,4 +1,4 @@
-#  Weather App using React JS and weather api 
+#  Weather App using React JS and weather api (Looks best on smartphones)
 ## :point_right: [Check it out](https://61cc1150c249296825dcaee8--unruffled-pasteur-ad78e1.netlify.app/) :point_left: This project is deployed on netlify
 
 ## Project screenshot
