@@ -1,4 +1,11 @@
-# Weather-App using React JS and weather api 
+#  Weather App using React JS and weather api 
+## :point_right: [Check it out](https://61cc1150c249296825dcaee8--unruffled-pasteur-ad78e1.netlify.app/) :point_left: This project is deployed on netlify
+
+## Project screenshot
+<p align="center" style="margin: 5rem">
+<img style="margin: 5rem" alt="login page" src="https://github.com/Aman149/Weather-App/blob/main/Screenshot.png" width="32.2%" height="32.2%">
+</p>
+<br/>
 
 # Getting Started with Create React App
 
